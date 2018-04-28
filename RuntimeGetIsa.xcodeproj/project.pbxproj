@@ -13,6 +13,8 @@
 		22AC50C72094127C00A69671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AC50C62094127C00A69671 /* Assets.xcassets */; };
 		22AC50CA2094127C00A69671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AC50C82094127C00A69671 /* LaunchScreen.storyboard */; };
 		22AC50CD2094127C00A69671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC50CC2094127C00A69671 /* main.m */; };
+		22AC50D52094160B00A69671 /* ClassOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC50D42094160B00A69671 /* ClassOne.m */; };
+		22AC50D82094162000A69671 /* ClassTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC50D72094162000A69671 /* ClassTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		22AC50C92094127C00A69671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22AC50CB2094127C00A69671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AC50CC2094127C00A69671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22AC50D32094160B00A69671 /* ClassOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassOne.h; sourceTree = "<group>"; };
+		22AC50D42094160B00A69671 /* ClassOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassOne.m; sourceTree = "<group>"; };
+		22AC50D62094162000A69671 /* ClassTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassTwo.h; sourceTree = "<group>"; };
+		22AC50D72094162000A69671 /* ClassTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				22AC50BE2094127900A69671 /* AppDelegate.m */,
 				22AC50C02094127900A69671 /* ViewController.h */,
 				22AC50C12094127900A69671 /* ViewController.m */,
+				22AC50D32094160B00A69671 /* ClassOne.h */,
+				22AC50D42094160B00A69671 /* ClassOne.m */,
+				22AC50D62094162000A69671 /* ClassTwo.h */,
+				22AC50D72094162000A69671 /* ClassTwo.m */,
 				22AC50C32094127900A69671 /* Main.storyboard */,
 				22AC50C62094127C00A69671 /* Assets.xcassets */,
 				22AC50C82094127C00A69671 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22AC50C22094127900A69671 /* ViewController.m in Sources */,
+				22AC50D52094160B00A69671 /* ClassOne.m in Sources */,
 				22AC50CD2094127C00A69671 /* main.m in Sources */,
+				22AC50D82094162000A69671 /* ClassTwo.m in Sources */,
 				22AC50BF2094127900A69671 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
